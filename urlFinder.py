@@ -18,7 +18,7 @@ def make_urls(names):
     # Returns the list of completed urls
     return urls
 
-# Scrapes and prints the url, name, and price of the first item result listed on eBay
+# Scrapes and prints the url
 def ebay_scrape(urls):
     for url in urls:
         # Downloads the eBay page for processing
