@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-name_list = []
+name_list = ["iPad Air 2"]
 
 # Returns a list of urls that search eBay for an item
 def make_urls(names):
